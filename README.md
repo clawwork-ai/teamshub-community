@@ -49,16 +49,25 @@ teams/<team-slug>/
     │   ├── IDENTITY.md
     │   ├── SOUL.md
     │   └── skills.json
-    └── <worker>/
-        ├── IDENTITY.md
-        ├── SOUL.md
-        └── skills.json
+    ├── <worker>/
+    │   ├── IDENTITY.md
+    │   ├── SOUL.md
+    │   └── skills.json
+    └── ...
 ```
 
 - **TEAM.md** — team metadata (YAML frontmatter) and workflow definition
 - **IDENTITY.md** — agent role description and prompt
 - **SOUL.md** — agent personality and communication style
-- **skills.json** — agent skill dependencies from ClawHub
+- **skills.json** — agent skill dependencies from ClawHub:
+  ```json
+  {
+    "version": 1,
+    "skills": {
+      "web-search": { "source": "web-search", "sourceType": "clawhub" }
+    }
+  }
+  ```
 
 ## Contributing
 
