@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "verify": {
+      "source": "",
+      "sourceType": "local",
+      "skillPath": "skills/verify/SKILL.md"
+    },
+    "test-driven-development": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/test-driven-development/SKILL.md"
+    }
+  }
+}
