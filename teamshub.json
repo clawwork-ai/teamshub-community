@@ -4,12 +4,15 @@
   "description": "Community-contributed team templates for ClawWork",
   "teams": [
     {
-      "id": "clawwork-dev",
+      "slug": "clawwork-dev",
       "name": "ClawWork Dev Team",
+      "emoji": "🛠️",
       "description": "ClawWork product dev team — ships the OpenClaw desktop client",
-      "path": "teams/clawwork-dev",
       "version": "1.0.0",
-      "agents": 7
+      "agentCount": 7,
+      "category": "development",
+      "tags": ["desktop", "electron", "openclaw"],
+      "author": "clawwork-ai"
     }
   ]
 }
