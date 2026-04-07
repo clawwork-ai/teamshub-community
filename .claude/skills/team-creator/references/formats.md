@@ -79,7 +79,7 @@ install sources. Format mirrors `.skill-lock.json` for compatibility.
 
 **sourceType values:**
 - `"github"` — install from GitHub repo (requires `source` as `owner/repo`)
-- `"cloud-hub"` — install from OpenClaw Cloud Hub (requires `source` as hub skill ID)
+- `"clawhub"` — install from OpenClaw Cloud Hub (requires `source` as hub skill ID)
 - `"local"` — already available locally, no installation needed
 
 ## Manager Agent (MANDATORY)
