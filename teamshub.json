@@ -2,5 +2,14 @@
   "version": 1,
   "name": "ClawWork Community Teams",
   "description": "Community-contributed team templates for ClawWork",
-  "teams": []
+  "teams": [
+    {
+      "id": "clawwork-dev",
+      "name": "ClawWork Dev Team",
+      "description": "ClawWork product dev team — ships the OpenClaw desktop client",
+      "path": "teams/clawwork-dev",
+      "version": "1.0.0",
+      "agents": 7
+    }
+  ]
 }

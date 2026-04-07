@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skills": {
+    "commit": {
+      "source": "",
+      "sourceType": "local",
+      "skillPath": "skills/commit/SKILL.md"
+    },
+    "ship": {
+      "source": "",
+      "sourceType": "local",
+      "skillPath": "skills/ship/SKILL.md"
+    }
+  }
+}
